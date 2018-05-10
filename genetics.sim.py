@@ -1,14 +1,6 @@
 #Code i made for Genetics Lab Ex9 - Simulation of Hardy-Weinberg Equilibrium
-
+#Really dirty and i hope to improve this. and maybe build a UI
 import random
-
-
-A_dom = 50
-A_rec = 50
-n = A_dom + A_rec
-
-masterlist = list('A'*A_dom) +  list('a'*A_rec)
-
 
 def withSubstitution(count): #try to verify accuracy of this part
     matinglist = list()
@@ -75,7 +67,19 @@ def chisquare(lista):
 
 
 
+#Amount of alleles
 
+#Dominant Alleles
+A_dom = 50
+
+#Recessive Alleles
+A_rec = 50
+n = A_dom + A_rec #Total Amount 
+
+masterlist = list('A'*A_dom) +  list('a'*A_rec) #Generates the random population
+
+
+##If 
 countt = 50
 # withSubstitution(countt)
 AcceptReject = list()
